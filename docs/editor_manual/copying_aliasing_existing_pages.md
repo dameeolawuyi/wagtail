@@ -16,18 +16,19 @@ Here is how to copy an existing page:
 
 ![Copy page form with the options to change the title, slug, parent page, published status and option to create an alias.](../_static/images/screen12.6_2_copy_input_information.png)
 
--   Once you completed this form, press _Copy this page_. The page will then be copied and appear in the Explorer page.
+-   Once you have completed this form, press _Copy this page_. The page will then be copied and appear in the Explorer page.
 
 (aliasing_page_label)=
 
 ## Aliasing pages
 
 When copying a page, you also have the option to mark it as an alias. The content of an aliased page will stay in sync with the original. This is particularly useful when a page is required to be available in multiple places.
-For example, let's say you have a page about Brioche in the Breads section. You then want to also make this page available in the Pastries section. One way to do this is to create a copy of the Brioche page and change the parent page to the Pastries page. However you now need to remember to update this copy each time the original is modified. If a copy is marked as an alias Wagtail will do this for you each time a modification to the original page is published.
+For example, let's say you have a page about _Brioche_ in the **Breads** section. You then want to also make this page available in the **Pastries** section. One way to do this is to create a copy of the _Brioche_ page and change the parent page to the **Pastries** page. However you now need to remember to update this copy each time the original is modified. If a copy is marked as an alias, Wagtail will do this for you each time a modification to the original page is published.
 
 Here is how to create an alias to an existing page:
 
--   The first step is the same as it is for [](copying_page_label). When you hover over a page in the {doc}`Explorer page <finding_your_way_around/the_explorer_page>`, click on _More_ and then _Copy_.
+   The first step is the same as it is for [](copying_page_label). 
+-   Hover over a page in the {doc}`Explorer page <finding_your_way_around/the_explorer_page>`, click on _More_ and then _Copy_.
 -   When you get to the copy page form, you can then choose another page as the parent page. Click the _Choose another page_ button.
 
 ![Clicking the "choose another page" button during the copy page form in order to change the parent of the copied page.](../_static/images/screen12.7_1_alias_choose_parent_page_button.png)
